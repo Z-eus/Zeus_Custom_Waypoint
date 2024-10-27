@@ -16,3 +16,7 @@
 ## NOTE
 - Dependency `Standalone`
 - Almost everything can be configured in `config.lua`
+
+## SHOWCASE
+
+[VIDEO](https://youtu.be/LZuCqHCqu0Q)
