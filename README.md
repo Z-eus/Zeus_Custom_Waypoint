@@ -16,6 +16,13 @@
 ## NOTE
 - Dependency `Standalone`
 - Almost everything can be configured in `config.lua`
+- The script takes the coordinate of your waypoint and creates a new route. Therefore, your scripts that need the waypoint location may not work properly.
+
+## UPDATE
+- v0.1
+    - Removed the “BLIP_NAME” text that appears with the Indicator after marking another location on the map
+    - Added waypoint can be deleted with key combination
+    - Small improvements
 
 ## SHOWCASE
 
