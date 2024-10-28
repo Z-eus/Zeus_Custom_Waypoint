@@ -2,14 +2,17 @@ Config = {}
 
 Config.WaypointColorChangeDelay = 0 				-- Determines how long it takes for the color to change after marking on the map
 Config.WaypointColor = "COLOR_WHITE" 				-- For more colors Line 21~58
-Config.WaypointClearCommand = "rr"					-- Route Remove / Waypoint Clear
+Config.WaypointClearCommand = "rr"				-- Route Remove / Waypoint Clear
+Config.WaypointClearWithKey = true
+Config.WaypointClearKey = 0x8AAA0AD4				-- LEFT ALT
+Config.WaypointClearKey2 = 0xE30CD707				-- R
 
 Config.AddBlipWaypointEndPoint = true
 Config.BlipSprite = 960467426
 Config.BlipName = "Waypoint"
-Config.BlipColor = "BLIP_MODIFIER_MP_COLOR_32"	    -- For more colors/effects Line 62~102
+Config.BlipColor = "BLIP_MODIFIER_MP_COLOR_32"	    		-- For more colors/effects Line 62~102
 
-Config.Notification = { 							-- You can use different notification scripts
+Config.Notification = { 				        -- You can use different notification scripts
 	Enable = true,
 	TitleColor = {30,144,255},
 	Title = "[Map System]",
