@@ -1,7 +1,10 @@
 Config = {}
 
+Config.Debug = false -- Dont make true on Live Server
+
 Config.WaypointColorChangeDelay = 0 				-- Determines how long it takes for the color to change after marking on the map
 Config.WaypointColor = "COLOR_WHITE" 				-- For more colors Line 21~58
+Config.WaypointAutoClearDistance = 5
 Config.WaypointClearCommand = "rr"				-- Route Remove / Waypoint Clear
 Config.WaypointClearWithKey = true
 Config.WaypointClearKey = 0x8AAA0AD4				-- LEFT ALT
@@ -10,7 +13,11 @@ Config.WaypointClearKey2 = 0xE30CD707				-- R
 Config.AddBlipWaypointEndPoint = true
 Config.BlipSprite = 960467426
 Config.BlipName = "Waypoint"
-Config.BlipColor = "BLIP_MODIFIER_MP_COLOR_32"	    		-- For more colors/effects Line 62~102
+Config.BlipColor = "BLIP_MODIFIER_MP_COLOR_32"	                -- For more colors/effects Line 62~102
+
+Config.AddMarkerWaypointEndPoint = true
+Config.MarkerColor = {r=255, g=255, b=255, a= 255}
+Config.MarkerStyle = 0x94FDAE17					-- For more styles Line 115-117
 
 Config.Notification = { 				        -- You can use different notification scripts
 	Enable = true,
@@ -103,4 +110,9 @@ BLIP_MODIFIER_FLASH_SHORT
 BLIP_MODIFIER_FLASH_MEDIUM
 BLIP_MODIFIER_FLASH_LONG
 BLIP_MODIFIER_FLASH_FOREVER
+
+----- MARKER STYLES -----
+0x94FDAE17
+0x50638AB9
+0x6EB7D3BB
 --]]
