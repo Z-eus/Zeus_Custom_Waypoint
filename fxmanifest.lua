@@ -4,7 +4,7 @@ rdr3_warning 'I acknowledge that this is a prerelease build of RedM, and I am aw
 
 author 'Zeus Script'
 description 'Zeus Script - Zeus Custom Waypoint'
-version '1.0.1'
+version '1.0.2'
 
 client_scripts {
 	'client/client.lua'
