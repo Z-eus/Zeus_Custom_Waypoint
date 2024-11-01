@@ -23,6 +23,11 @@
     - Removed the “BLIP_NAME” text that appears with the Indicator after marking another location on the map
     - Added waypoint can be deleted with key combination
     - Small improvements
+  
+- v0.2
+    - The waypoint will be automatically deleted when the character reaches the marked location
+    - 3D marker can now be added to the location you mark on the map
+    - Debug added
 
 ## SHOWCASE
 
