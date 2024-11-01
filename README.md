@@ -9,6 +9,10 @@
 
 **Change Waypoint Blip Color/Style:** You can change the blip color and style (e.g. pulse effect).
 
+**Add Waypoint Marker:** You can add a 3D marker for the end point of the waypoint that you can see.
+
+**Change Waypoint Marker Color/Style:** You can change the marker color and style.
+
 ## Installation
 - Throw it into your `resources` folder
 - Add `ensure Zeus_Custom_Waypoint` to your `server.cfg`
